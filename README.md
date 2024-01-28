@@ -51,7 +51,7 @@ registrar.py
 
 Archivo principal de ejecución: leer_tag.py puede posteriormente modificar su nombre por main.py para la ejecución de la aplicación sin necesidad de la máquina y del uso del IDE Thonny.
 
-FOLDER PHP: Dispone de los archivos que permiten la interacción con la base de datos, al emplear un servicio de Hosting gratuito, no permite la conexión remota, por lo anterior, se definen archivos PHP que a partir de datos de entrada en formato JSON, ejecutan peticiones HTTP POST en una base de datos relacional MySQL.Archivos:
+FOLDER PHP: Dispone de los archivos que permiten la interacción con la base de datos, al emplear un servicio de Hosting gratuito, no permite la conexión remota, por lo anterior, se definen archivos PHP que a partir de datos de entrada en formato JSON, ejecutan peticiones HTTP POST en una base de datos relacional MySQL. Archivos:
 
 actualizar.php
 
