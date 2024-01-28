@@ -3,6 +3,26 @@ OPTIMIZACIÓN 4.0: Sistematización de formatos para agilizar la gestión docume
 
 FUNCIONALIDAD: Optimización 4.0 es la primera versión de un sistema que permite la autenticación e identificación de usuarios por medio de un lector RFID, tras el acceso satisfactorio, el usuario podrá ágilmente diligenciar formatos de forma individual o masiva, se debe contar con un formato origen con extensión .xlsx, empleando este archivo origen, se asignan los datos de entrada a un archivo .xlsx de salida, este se exporta a formato .pdf y es enviado de forma desatendida al correo electrónico establecido, al usuario le es enviado un correo electrónico con los archivos generados en formato .zip.
 
+1.	El mecanismo de autenticación e identificación de usuarios se realizará por medio de un módulo lector RFID – RC522 y el procesamiento de datos por medio de un chip ESP32.
+
+2.	Adquisición de un servicio de Hosting – Hostinger: https://co.000webhost.com/
+
+3.	Diseño de una base de datos empleando el SGBD MySQL.
+
+4.	Base de datos: Carga de perfiles, datos por usuario y seguimiento de formatos generados.
+
+5.	Generación de Token por usuario y acceso, comunicación del mismo al usuario vía correo electrónico.
+
+6.	Validación de Token y acceso al sistema.
+
+7.	Selección del formato a generar y lectura de los datos de entrada necesarios; individuales ingresados por el instructor, o masivos importados desde un archivo Excel.
+
+8.	Carga de datos de entrada a archivo genérico en formato Excel. 
+
+9.	Generación del documento diligenciado en formato .pdf.
+
+10.	Envío empleando correo electrónico de los documentos generados, formato individual a cada aprendiz y un archivo comprimido al instructor encargado.
+
 OBJETIVO: Sistematizar el conjunto de formatos para el seguimiento de los debidos procesos de aprendices que facilite la gestión documental de los instructores del Servicio Nacional de Aprendizaje empleando el lenguaje de programación Python. 
 
 RECURSOS DEL REPOSITORIO:
