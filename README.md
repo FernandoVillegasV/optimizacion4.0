@@ -35,8 +35,7 @@ representante.png
 
 Las imágenes en formato png se adicionan al archivo Excel antes de exportarlo a pdf.
 
-FOLDER MICROPYTHON: Dispone de todos los módulos y componentes que permiten la comunicación entre el chip RFID-RC522, el microcontrolador ESP-32 de 30 pines y la implementación MicroPython, permite la conexión a una red Wi-Fi, lectura de Tag de radio frecuencia de 13.54 MHz, generar y registrar un Token en una base de datos MySQL proporcionada por el servicio de Hosting 000webhost, enviar un correo electrónico de notificación empleando SMTP.
-Archivos: 
+FOLDER MICROPYTHON: Dispone de todos los módulos y componentes que permiten la comunicación entre el chip RFID-RC522, el microcontrolador ESP-32 de 30 pines y la implementación MicroPython, permite la conexión a una red Wi-Fi, lectura de Tag de radio frecuencia de 13.54 MHz, generar y registrar un Token en una base de datos MySQL proporcionada por el servicio de Hosting 000webhost, enviar un correo electrónico de notificación empleando SMTP. Archivos: 
 
 lib/umail.py		
 
@@ -52,8 +51,7 @@ registrar.py
 
 Archivo principal de ejecución: leer_tag.py puede posteriormente modificar su nombre por main.py para la ejecución de la aplicación sin necesidad de la máquina y del uso del IDE Thonny.
 
-FOLDER PHP: Dispone de los archivos que permiten la interacción con la base de datos, al emplear un servicio de Hosting gratuito, no permite la conexión remota, por lo anterior, se definen archivos PHP que a partir de datos de entrada en formato JSON, ejecutan peticiones HTTP POST en una base de datos relacional MySQL.
-Archivos:
+FOLDER PHP: Dispone de los archivos que permiten la interacción con la base de datos, al emplear un servicio de Hosting gratuito, no permite la conexión remota, por lo anterior, se definen archivos PHP que a partir de datos de entrada en formato JSON, ejecutan peticiones HTTP POST en una base de datos relacional MySQL.Archivos:
 
 actualizar.php
 
@@ -65,8 +63,7 @@ login.php
 
 Estos deben ser alojados en el administrador de archivos del servicio de Hosting.
 
-FOLDER PYTHON: Dispone de los archivos que representan la lógica del sistema, permite la comunicación de datos a los archivos .php, carga los datos de entrada para generar el documento de salida de un archivo Excel, genera un archivo de salida en formato Excel con los datos de entrada, finalmente, convierte el archivo de salida a formato pdf y envía el mismo vía correo electrónico, al usuario le envía un correo electrónico con los formatos generados en archivo comprimido .zip.
-Archivos:
+FOLDER PYTHON: Dispone de los archivos que representan la lógica del sistema, permite la comunicación de datos a los archivos .php, carga los datos de entrada para generar el documento de salida de un archivo Excel, genera un archivo de salida en formato Excel con los datos de entrada, finalmente, convierte el archivo de salida a formato pdf y envía el mismo vía correo electrónico, al usuario le envía un correo electrónico con los formatos generados en archivo comprimido .zip. Archivos:
 
 datos_conexion.py
 
